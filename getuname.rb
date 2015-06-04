@@ -4,10 +4,10 @@ system_uname = `uname -s`
 puts system_uname
 puts system_uname.length
 
-ll = system_uname[0..5]
-puts ll
+sysOS = system_uname[0..5]
+puts sysOS
 
-if ll == "Darwin"
+if sysOS == "Darwin"
 	puts "True"
 else
 	puts "false"
