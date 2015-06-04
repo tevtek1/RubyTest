@@ -5,7 +5,7 @@ server_kernel = `uname -r`
 puts server_name
 
 
-server = {name: server_name, type: server_type kernel_version: server_kernel}
+server = {name: server_name, type: server_type, kernel_version: server_kernel}
 
 server.each do |key, value|
 	puts " #{key} is #{value} "
